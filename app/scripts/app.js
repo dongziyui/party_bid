@@ -24,7 +24,7 @@ angular
             templateUrl: 'views/create.html',
             controller: 'CreateCtrl'
       })
-        .when('/list', {
+        .when('/', {
             templateUrl: 'views/list.html',
             controller: 'ListCtrl'
         })
