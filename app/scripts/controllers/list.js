@@ -7,7 +7,8 @@ angular.module('activityappApp')
         {
             $location.path('/create')
         }
-      $scope.activities=[]
+       $scope.activities=JSON.parse(localStorage.getItem('activity'))
+
 
 
     })
