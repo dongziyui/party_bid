@@ -5,6 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
+    font-weight: bold;
 }
 #buttoner{
     width: 10%;
@@ -19,3 +20,20 @@
 li{
     height: 50px;
 }
+
+p{
+    color: #1a1a1a;
+}
+
+#warner{
+    text-align: center;
+    font-size: 10px;
+    color: #e51d18;
+}
+
+.header-left{
+    margin-top: 10px;
+}
+ .header-right{
+    margin-top:10px;
+ }

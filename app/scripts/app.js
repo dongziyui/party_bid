@@ -28,6 +28,10 @@ angular
             templateUrl: 'views/list.html',
             controller: 'ListCtrl'
         })
+        .when('/active',{
+            templateUrl:'views/active.html',
+            controller:'ActiveCtrl'
+        })
       .otherwise({
         redirectTo: '/'
       });

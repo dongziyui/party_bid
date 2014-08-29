@@ -6,6 +6,6 @@
   </header>
     <div class="lister">
         <ul class="list-style-2" >
-           <li ng-repeat="activity in activities track by $index">{{activity}}</li>
+           <li ng-repeat="activity in activities track by $index" ng-click="go_to_action()">{{activity}}</li>
         </ul>
     </div>
