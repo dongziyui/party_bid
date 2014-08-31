@@ -15,7 +15,7 @@ angular.module('activityappApp')
         $scope.changer = function () {
 
             var activity = JSON.parse(localStorage.getItem('activity')) || []
-//            
+//
             for (i = 0; i < activity.length; i++) {
                 console.log(1);
                 if ($scope.activity_name == activity[i]) {
